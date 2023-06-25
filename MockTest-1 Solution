@@ -1,1 +1,22 @@
+Q.1 Move Zero
 
+public static void moveZero(int nums[]) {
+        //Create a count variable for tracking the non-zero value
+        int count = 0;
+        int n = nums.length;
+
+        for (int i = 0; i < n; i++) {
+            // check Non zero integer
+            if (nums[i] != 0) {
+                nums[count] = nums[i];
+                //Increment the count by 1
+                count++;
+            }
+        }
+        // After completing the loop we insert the 0 into the rest of the space from count to
+        // nums.length.
+        while (count < n) {
+            nums[count] = 0;
+            count++;
+        }
+    }
