@@ -1,0 +1,51 @@
+<!-- 2. Create a form with basic validation (name, email, phone number, password, age, gender, date, color picker) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+  <form action="POST" id="form-container">
+   <div id="name">
+    <label for="Name">Name :</label>
+    <input type="text">
+   </div>
+   <div id="email">
+    <label for="Email"> Email : </label>
+    <input type="email">
+   </div>
+   <div id="phoneNo">
+    <label for="number">Phone No. :</label>
+    <input type="tel">
+   </div>
+   <div id="passward">
+    <label for="passward">Passward :</label>
+    <input type="password">
+   </div>
+   <div id="age">
+    <label for="age">Age :</label>
+    <input type="number" id="age">
+   </div>
+   <div id="gender">
+    <label for="gender">Gender :</label>
+    <input type="radio" name="gender" value="male">male
+    <br>
+    <input type="radio" name="gender" value="female">Female
+   </div>
+   <div id="date">
+    <label for="date">Date :</label>
+    <input type="date">
+   </div>
+   <div id="color-pick">
+    <label for="color-pick">Colour Pick :</label>
+    <input type="color">
+   </div>
+   <div id="btn">
+    <button id="submit">Submit</button>
+   </div>
+  </form>
+</body>
+</html>

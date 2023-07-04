@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Common Element */
+li{
+    list-style:none;
+}
+body{
+    height:100vh;
+    width:95vw;
+    margin: auto;
+
+}
+/* logo */
+img[alt="Company-logo"]{
+    width:160px;
+}
+
+/* Header */
+/* Navbar */
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+/* Menu */
+#menu ul{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:10px;
+}
+
+#menu ul li{
+    padding:10px;
+    background-color: #c9c4cf;
+   
+}
+
+/* Right Menu */
+.right-menu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+
+}
+
+/* Sales box */
+#sales-box p{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-weight: 500;
+    font-size:0.9rem;
+}
+
+#search-box{
+   font-size:1.3rem;
+}
+
+/* Button */
+#login-btn button{
+    di
+}

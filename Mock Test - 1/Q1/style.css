@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(187, 214, 229);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:10px;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+h1{
+ display: flex;
+ background-color: #fff;
+ width:100%;
+ text-align: center;
+ justify-content: center;
+ 
+}
+
+div{
+    height:300px;
+    width: 300px;
+    background-color:rgb(242, 244, 96);
+    border:1px solid black;
+    overflow:auto;
+
+}
+div ul li{
+    list-style:none;
+}
+div ul li:before{
+
+ content: "✅";
+    
+}
+.li-demo{
+    font-weight: bold;
+}
+/* Static */
+
+#static div{
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    height:100px;
+    width:100px;
+    text-transform: uppercase;
+    
+}
+
+/* Fixed */
+#fixed{
+    position: relative;
+}
+#fixed div{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color:white;
+        height:100px;
+        width:100px;
+        text-transform: uppercase;  
+        z-index: 1; 
+}
+
+/* Sticky */
+
+#sticky{
+    position: relative;
+}
+#sticky div{
+        position: sticky;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color:white;
+        height:100px;
+        width:100px;
+        text-transform: uppercase;  
+        top:20px;
+        left:90px; 
+}
+
+/* Relative */
+
+/* #relative{
+    position: relative;
+} */
+#relative div{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color:white;
+        height:80px;
+        width:80px;
+        text-transform: uppercase;  
+}
+.rel{
+    left:82px;
+    bottom:80px;
+}
+
+/* Absolute */
+
+#absolute{
+    position: relative;
+}
+#absolute div{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color:white;
+        height:100px;
+        width:100px;
+        text-transform: uppercase;  
+        top:20px;
+        left:90px; 
+}

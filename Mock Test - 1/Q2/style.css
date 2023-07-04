@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    gap:20px;
+    font-size: 1.1rem;
+    margin: 2px;
+}
+
+input{
+    margin-left:15px;
+    border-radius: 2px;
+    padding:3px;
+}
+
+input[type="tel"]{
+    margin-left:-16px;
+}
+input[type="password"]{
+    margin-left:-8px;
+}
+#age{
+    margin-left:16px;
+}
+input[type="date"]{
+    margin-left:25px;
+}
+input[type="radio"]{
+    margin-left:0;
+}
+
+
+#form-container{
+    Width:350px;
+    height:600px;
+    background: rgb(162, 171, 177);
+    display: block;
+    margin:30px auto;
+    Padding:15px;
+   
+}
+
+#btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px; 
+}
+
+#submit{
+    font-size: 20px;
+    padding:10px;
+    border-radius: 12px;
+    border: none;
+    background-color: #e30bca;
+    color:#fff;
+}
